@@ -1,0 +1,61 @@
+/* CSS Document */
+
+@charset "UTF-8";
+
+/* div */
+
+div{
+    background: lavender;
+    height: auto;
+}
+
+/* ------- IMG                     ------- */
+
+
+img{
+    width: 200px;
+display: inline-block;
+    padding: 10px;
+}
+
+/* span */
+span{
+    background: blue;
+    
+}
+
+/* ------- TYPOGRAPHY ------- */
+
+/* header */
+
+h1{
+    color: rgb(162, 139, 224);
+    background: ;
+    width: 200px;
+    height: 40px;
+    text-align: center;
+    margin: auto;
+}
+
+/* strong */
+
+strong{
+    color: navy
+}
+
+p{
+    display: inline-block
+    background: lavender;
+    padding: 20px;
+    border:
+    margin: 20px;
+    width: 40%;
+}
+
+body{
+    width: 800px;
+    background: white;
+    margin: auto;
+}
+
+html

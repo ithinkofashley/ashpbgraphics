@@ -1,0 +1,187 @@
+/*CSS Document*/
+ 
+ 
+html{
+    background: #FFF5EA;
+}
+ 
+ 
+body{
+    background-image: url(../img/stars_bg.png);
+    background-attachment:fixed;
+    background-repeat:no-repeat;
+    height:1080px;
+}
+ 
+/*Font Stuff*/
+
+h1{
+    font-family: 'alike', serif;
+}
+ 
+
+h2{
+    font-family: 'alike', serif;
+}
+ 
+p{
+    font-family: 'gadugi', serif;
+}
+ 
+footer{
+    color: #947B36;
+    font-family: 'alike', serif;
+}
+ 
+span{
+    color: #947B36;
+    font-family: 'alike', serif;
+}
+ 
+/*Link Movement Homepage*/
+
+.box1{
+  float:left;
+    margin-left: 100px;
+}
+ 
+.box2{
+    margin-top: 100px;
+    margin-right: 400px;
+}
+
+/* End Link Movement Homepage*/
+
+/*IMG Movement About Me*/
+
+.box3{
+    margin-top: auto;
+    margin-left: 100px;
+}
+
+.box4{
+    margin-bottom: auto;
+    margin-left: 300px;
+}
+
+.box5{
+    margin-top: 100px;
+    margin-right: 600px;
+}
+ 
+.bottom
+{
+  margin-bottom:30px;
+}
+ 
+.newline
+ 
+{
+  position:relative;
+  display:inline-block;
+  width:100%;
+}
+ 
+img{
+    border: 0;
+}
+
+/*For Footer*/
+ 
+#credit {
+    position:fixed;
+    bottom:20px;
+    word-wrap:break-word;
+    overflow:hidden;
+    -webkit-transition:all 1s ease;
+    -moz-transition:all 1s ease;
+    -o-transition:all 1s ease;
+    transition: all 1s ease-in-out;
+    z-index:9999999999999999;
+    margin-left: 20px;
+}
+
+#credit a {
+    color: #161515;
+    text-transform:uppercase;
+    font-size:10px;
+    z-index:9999999999999999999;
+}
+
+/* Hamburger Button */
+
+.container {
+  display: inline-block;
+  cursor: pointer;
+}
+
+.bar1, .bar2, .bar3 {
+  width: 35px;
+  height: 5px;
+  background-color: #E9B071;
+  margin: 6px 0;
+  transition: 0.4s;
+}
+
+/* Rotate first bar */
+.change .bar1 {
+  -webkit-transform: rotate(-45deg) translate(-9px, 6px) ;
+  transform: rotate(-45deg) translate(-9px, 6px) ;
+}
+
+/* Fade out the second bar */
+.change .bar2 {
+  opacity: 0;
+}
+
+/* Rotate last bar */
+.change .bar3 {
+  -webkit-transform: rotate(45deg) translate(-8px, -8px) ;
+  transform: rotate(45deg) translate(-8px, -8px) ;
+}
+
+
+
+/* Dropdown Button */
+.dropbtn {
+  background-color: #FBE2C7;
+  color: white;
+  padding: 16px;
+  font-size: 16px;
+  border: none;
+}
+
+/* The container <div> - needed to position the dropdown content */
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+/* Dropdown Content (Hidden by Default) */
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f1f1f1;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+/* Links inside the dropdown */
+.dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+/* Change color of dropdown links on hover */
+.dropdown-content a:hover {background-color: #ddd;}
+
+/* Show the dropdown menu on hover */
+.dropdown:hover .dropdown-content {display: block;}
+
+/* Change the background color of the dropdown button when the dropdown content is shown */
+.dropdown:hover .dropbtn {background-color: #F9EAD9;}
+
+/* END HAMBURGER BUTTON */
